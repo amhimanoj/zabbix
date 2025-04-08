@@ -135,5 +135,3 @@ By following the above steps, you will have a fully functional Zabbix installati
 
 Happy Monitoring!
 ```
-
-You can now copy and paste the entire contents above as a single Markdown file.
