@@ -1,5 +1,4 @@
-
-This document provides step-by-step instructions to install and configure Zabbix 7.2 with MariaDB on Debian 12. Each step is explained briefly.
+## This document provides step-by-step instructions to install and configure Zabbix 7.2 with MariaDB on Debian 12. Each step is explained briefly.
 
 ---
 
