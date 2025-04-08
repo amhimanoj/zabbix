@@ -78,7 +78,7 @@ sudo mysql -uroot -p'changeme' -e "CREATE DATABASE zabbix CHARACTER SET utf8mb4 
 Import the Zabbix database schema into the newly created database. Password for this command is password
 
 ```bash
-zcat /usr/share/zabbix/sql-scripts/mysql/server.sql.gz | mysql --default-character-set=utf8mb4 -uzabbix -p zabbix
+zcat /usr/share/zabbix/sql-scripts/mysql/server.sql.gz | mysql --default-character-set=utf8mb4 -uzabbix -p'password' zabbix
 ```
 
 ---
