@@ -7,15 +7,13 @@
 Reconfigure locales to ensure proper locale settings on your system. make sure to select correct Locale en_US
 
 ```bash
-sudo dpkg-reconfigure locales
+sudo apt update
+sudo apt install -y locales
+echo "en_US.UTF-8 UTF-8" | sudo tee /etc/locale.gen
+sudo locale-gen
+sudo update-locale LANG=en_US.UTF-8
+
 ```
-
-Make Sure to select en_US use down arrow or page down keys to select correct Locale.
-
-![image](https://github.com/user-attachments/assets/0bb48b8a-dc48-431f-93cd-4225b8275498)
-
-
-![image](https://github.com/user-attachments/assets/192831ed-4321-4481-9122-d50bcf385905)
 
 ---
 
