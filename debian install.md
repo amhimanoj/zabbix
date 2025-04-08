@@ -10,9 +10,10 @@ Reconfigure locales to ensure proper locale settings on your system. make sure t
 sudo dpkg-reconfigure locales
 ```
 
-Make Sure to select en_US
+Make Sure to select en_US use down arrow or page down keys to select correct Locale.
 
-![image](https://github.com/user-attachments/assets/1d1adfa7-8bee-4810-bd62-fb6e1b16db83)
+![image](https://github.com/user-attachments/assets/0bb48b8a-dc48-431f-93cd-4225b8275498)
+
 
 ![image](https://github.com/user-attachments/assets/192831ed-4321-4481-9122-d50bcf385905)
 
