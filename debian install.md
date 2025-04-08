@@ -137,7 +137,7 @@ sudo systemctl enable zabbix-server zabbix-agent2 nginx php8.2-fpm
 
 ## Alternatively run a single command to download and install 
  ```bash
-curl https://raw.githubusercontent.com/amhimanoj/zabbix/refs/heads/main/debian-install.sh | sudo bash
+curl https://raw.githubusercontent.com/amhimanoj/zabbix/refs/heads/main/debian-install72.sh | sudo bash
   ```
 
 By following the above steps, you will have a fully functional Zabbix installation using MariaDB on Debian 12.
