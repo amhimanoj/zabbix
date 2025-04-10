@@ -82,7 +82,7 @@ echo "=== Test SNMP with: ==="
 echo "snmpwalk -v2c -c public $ip_address"
 
 ```
-### . Alternatively you can run following single command for the configuration. 
+### Alternatively you can run following single command for the configuration. 
 
 ```bash
 
