@@ -80,3 +80,10 @@ systemctl status snmpd --no-pager
 echo
 echo "=== Test SNMP with: ==="
 echo "snmpwalk -v2c -c public $ip_address"
+
+```
+### . Alternatively you can run following single command for the configuration. 
+
+```bash
+
+curl https://raw.githubusercontent.com/amhimanoj/zabbix/refs/heads/main/snmp/snmp-conf.sh | sudo bash
