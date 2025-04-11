@@ -2,7 +2,7 @@
 wget https://repo.zabbix.com/zabbix/7.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_7.0+debian12_all.deb
 sudo dpkg -i zabbix-release_latest_7.0+debian12_all.deb
 sudo apt update
-sudo apt install zabbix-agent2 zabbix-agent2-plugin-postgresql
+sudo apt install -y zabbix-agent2 zabbix-agent2-plugin-postgresql
 CONFIG_FILE="/etc/zabbix/zabbix_agent2.conf"
 BACKUP_FILE="${CONFIG_FILE}.bak"
 
